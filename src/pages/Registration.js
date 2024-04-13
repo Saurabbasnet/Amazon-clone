@@ -101,6 +101,7 @@ const Registration = () => {
           });
           // Signed in
           const user = userCredential.user;
+          console.log(user);
           setLoading(false);
           setSuccessMsg("Account Created Successfully");
           setTimeout(() => {
